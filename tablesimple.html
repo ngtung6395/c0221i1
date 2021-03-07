@@ -2,11 +2,26 @@
 <html>
 <head>
     <title> Table simple </title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        </style>
+    <style>td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    </style>
+    <style>tr:nth-child(odd) {
+        background-color: #dddddd;
+    }
+    </style>
 </head>
 <body>
-<table style="font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;">
+<table>
     <tr>
         <th>Company</th>
         <th>Contact</th>
