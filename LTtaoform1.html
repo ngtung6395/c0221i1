@@ -5,20 +5,38 @@
     <title>Tạo bảng tìm hiểu sở thích cá nhân</title>
 </head>
 <body>
-<form>Họ và tên <input type="text" name="yourname">
-    <br>Email <input type="text" name="email">
-    <br>Sở thích
-    <label><input type="checkbox" name="Hobby"/>Thể thao</label>
-    <label><input type="checkbox" name="Hobby"/>Âm nhạc</label>
-    <label><input type="checkbox" name="Hobby"/>Đọc sách</label>
-    <br><label><input type="checkbox" name="Hobby"/>Lướt web</label>
-    <label><input type="checkbox" name="Hobby"/>Chơi game</label>
-    <label><input type="checkbox" name="Hobby"/>Điện ảnh</label>
-    <br><label><input type="checkbox" name="Hobby"/>Du lịch</label>
-    <p><input type = "button" name="submit" value="Gửi thông tin"/>
-        <input type = "button" name="Reset" value="Nhập lại"/>
-    </p>
-
+<form action="" method="post">
+    <table>
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" name="email"></td>
+        </tr>
+        <tr>
+            <td>Sở thích</td>
+            <td>
+                <label><input type="checkbox" name="hobby">Du lịch</label>
+                <label><input type="checkbox" name="hobby">Đọc sách</label>
+                <label><input type="checkbox" name="hobby">Thể thao</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <label><input type="checkbox" name="hobby">Lướt web</label>
+                <label><input type="checkbox" name="hobby">Nghe nhạc</label>
+                <label><input type="checkbox" name="hobby"></label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><label><input type="checkbox" name="hobby"></label></td>
+        </tr>
+    </table>
+    <input type="button" name="send date" value="Gửi đi">
 </form>
 
 </body>
